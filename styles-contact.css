@@ -92,7 +92,7 @@ h1 {
 	font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #FFCFEA;
+    color: #dee8ff/* the pink: #FFCFEA*/;
 }
 
 /*removed h2 {
@@ -139,12 +139,12 @@ nav a{
 }
 
 a{
-	color: #444;
+	color: #333;
 	text-decoration: none;
 	font-weight: bold;
 }
 
 a:hover{
-	color: #9FC9EB;
+	color: #dee8ff;
 }
 
