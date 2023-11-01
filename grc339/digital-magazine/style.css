@@ -1,0 +1,77 @@
+/*CSS document*/
+
+body {
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	background-color: rgb(245, 240, 240);
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: auto;
+}
+
+aside figure {
+    width: 70%;
+    margin: 3em 0 0;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+}
+
+nav ul li {
+	display: inline;
+    font-family: "gyst-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+    margin-left: 2em;
+	}
+
+nav ul li a {
+    color: #D74747;
+}
+
+h2 {
+    font-family: "gyst-variable", sans-serif;
+    font-variation-settings: "wght" 400;
+    color: #23326C;
+}
+
+h3 {
+    font-family: "gyst-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+    font-style: italic;
+    color: #23326C;
+}
+
+figcaption {
+    font-family: articulat-cf, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #23326C;
+}
+
+p {
+    color: #23326C;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
