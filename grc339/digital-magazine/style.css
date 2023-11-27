@@ -9,6 +9,10 @@ body {
     margin: 2em;
 }
 
+h1 {
+    width: 3em;
+}
+
 div.container {
     max-width: 80em;
     margin: 0 auto;
@@ -53,6 +57,7 @@ header img {
 nav ul li {
 	display: inline;
     font-family: "gyst-variable", sans-serif;
+    font-size: 1.15em;
     font-variation-settings: "wght" 300;
     margin-left: 1em;
 	}
@@ -147,6 +152,39 @@ button {
     border-color: #D74747;
 }
 
+h2 {
+    font-family: "gyst-variable", sans-serif;
+    font-variation-settings: "wght" 400;
+    color: #23326C;
+}
+
+h3 {
+    font-family: "gyst-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+    font-style: italic;
+    color: #23326C;
+}
+
+figcaption {
+    font-family: articulat-cf, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #23326C;
+}
+
+p {
+    color: #23326C;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 @media screen and (min-width: 60em){
     div.container{
         display: grid;
@@ -204,36 +242,42 @@ button {
         grid-column: 1/3;
     }
 }
+
+@media screen and (prefers-color-scheme: dark) {
+    body{
+        background-color: #333;
+        color: #eee;
+    }
+
+    h1 {
+        background-image: url(logo-dark-mode.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
     
-h2 {
-    font-family: "gyst-variable", sans-serif;
-    font-variation-settings: "wght" 400;
-    color: #23326C;
-}
+    h1 img {
+        opacity: 0;
+    }
 
-h3 {
-    font-family: "gyst-variable", sans-serif;
-    font-variation-settings: "wght" 300;
-    font-style: italic;
-    color: #23326C;
-}
+    nav ul li {
+        font-variation-settings: "wght" 500;
+    }
 
-figcaption {
-    font-family: articulat-cf, sans-serif;
-    font-weight: 100;
-    font-style: italic;
-    color: #23326C;
-}
+    h2 {
+        color: #FBF1DA;
+    }
 
-p {
-    color: #23326C;
-}
+    h3{
+        color: #FBF1DA;
+    }
 
-a {
-    text-decoration: none;
-}
+    form h4 {
+        color: #FBF1DA;
+    }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+    p {
+        color: #FBF1DA;
+    }
 }
+    
+
