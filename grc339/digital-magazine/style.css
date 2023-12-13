@@ -157,8 +157,9 @@ h2 {
 
 h3 {
     font-family: "gyst-variable", sans-serif;
-    font-variation-settings: "wght" 300;
+    font-variation-settings: "wght" 400;
     font-style: italic;
+    font-size: 1.4em;
     color: #23326C;
 }
 
@@ -254,7 +255,7 @@ ul {
     }
 
     h3{
-        color: #FBF1DA;
+        color: #D1D7F0;
     }
 
     form h4 {
